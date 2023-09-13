@@ -1,0 +1,71 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+thead {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+th {
+    border-bottom: 1px solid black;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+#inputField {
+    padding: 10px 15px;
+}
+
+#getUserBtn {
+    padding: 10px 15px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#getUserBtn:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+#getAllBtn {
+    padding: 10px 15px;
+    background-color: lightsalmon;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#getAllBtn:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#clearBtn {
+    padding: 10px 15px;
+    background-color: orangered;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+#clearBtn:hover {
+    background-color: darkred;
+    color: white;
+}
