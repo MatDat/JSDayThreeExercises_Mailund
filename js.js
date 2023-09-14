@@ -29,6 +29,8 @@ document.getElementById("getUserBtn").onclick = function (evt) {
 
             console.log(data);
             document.getElementById("userTable").innerHTML = ""
+            document.getElementById("inputField").value = ""
+
         })
         .catch(error => {
             console.error("Fejl ved hentning af data:", error);
